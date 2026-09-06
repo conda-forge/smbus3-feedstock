@@ -12,7 +12,7 @@ source:
   sha256: 91eed38fb6b7d2f893fbfc3f37006aa41e6913fdda5b3a9a79238b353760f92e
 
 build:
-  number: 1
+  number: 2
   # imports fcntl and talks to /dev/i2c-* devices; unix-only. Not noarch
   # because conda-forge's linter forbids skips on noarch packages.
   skip: win
